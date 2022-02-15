@@ -1,0 +1,11 @@
+
+.body {
+font-family: Helvetica, Arial, sans-serif;
+}
+.header h1 {
+    background-color: blueviolet;
+}
+.hero-cta img {
+    max-width: 50%;
+    height: auto;
+}
