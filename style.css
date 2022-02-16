@@ -5,7 +5,7 @@ font-family: Helvetica, Arial, sans-serif;
 .header h1 {
     background-color: blueviolet;
 }
-.hero-cta img {
-    max-width: 50%;
+.img source  {
+    max-width: 25%;
     height: auto;
 }
