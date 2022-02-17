@@ -1,11 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .body {
 font-family: Helvetica, Arial, sans-serif;
+color:blue
 }
 .header h1 {
-    background-color: blueviolet;
+    background-color: rgb(97, 65, 126);
+    display: flex;
+
 }
-.img source  {
-    max-width: 25%;
+.hero-cta img  {
+    max-width: 10%;
     height: auto;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a  {
+    display:flex 0;
+    justify-content: space-around;
+    padding: 10px 15px;
+    font-weight: ligher;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    text-shadow: none;
+    /* background-color: rgb(0, 162, 255); */
+    color:blanchedalmond;
+
 }
